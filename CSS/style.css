@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* Navigation bar  */
+
+#navbar{
+    display: flex;
+}
+
+#logo img{
+    width: 22px;
+    height: 22px;
+    
+}
+
+/* Navigation Bar: List Styling  */
+
+#navbar ul{
+    display:flex;
+
+}
+
+
+#navbar ul li{
+    list-style: none;
+    margin:2px 5px;
+    
+}
+
