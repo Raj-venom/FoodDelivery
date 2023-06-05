@@ -1,3 +1,6 @@
+
+/* CSS Reset  */
+
 *{
     margin:0;
     padding:0;
@@ -7,25 +10,65 @@
 
 #navbar{
     display: flex;
+    background-color: rgb(0, 0, 0);
 }
 
+
+/* Navigation Bar: Logo and Image  */
+
 #logo img{
-    width: 22px;
-    height: 22px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0px -10px;
     
+}
+
+#logo{
+    margin: 10px 34px;
 }
 
 /* Navigation Bar: List Styling  */
 
 #navbar ul{
     display:flex;
+    font-family: 'Noto Sans', sans-serif;
 
 }
 
 
 #navbar ul li{
     list-style: none;
-    margin:2px 5px;
-    
+    margin-top:40px;
+    font-size: 1.3rem;
 }
+
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 2px 20px;
+}
+
+#navbar ul li a:hover{
+    color:black;
+    background-color: white;
+    border-radius: 52px;
+
+}
+
+/* Home Section  */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 330px;
+    padding:2px 250px;
+    border: 2px solid red;
+
+
+}
+
+
+
 
