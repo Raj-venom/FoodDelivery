@@ -246,3 +246,23 @@ footer{
   background-color: rgba(210, 47, 47, 1);
   color: rgb(255, 255, 255, 0.9);
 }
+
+
+.submit {
+  margin-left: 70px;
+  border: 2px solid red;
+  padding: 6px 200px;
+  border-radius: 10px;
+  background-color: rgba(165, 42, 42, 1);
+  color: rgba(255, 255, 255, 1);
+
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+
+.submit:hover {
+  background-color: rgba(210, 47, 47, 1);
+  color: rgb(255, 255, 255, 0.9);
+}
+

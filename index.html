@@ -94,25 +94,29 @@
     <section id="contact">
         <h1 class="h-primary-center">Contact Us</h1>
         <div id="contact-box">
-            <form action="#">
+            <form action="food.php" method="post">
                 <div class="form-group">
                     <label for="name">Name: </label>
-                    <input type="text" id="name" placeholder="Enter your name">
+                    <input type="text" id="name"  name="name" placeholder="Enter your name">
                 </div>
 
                 <div class="form-group">
                     <label for="email">Email: </label>
-                    <input type="email" id="email" placeholder="Enter your email">
+                    <input type="email" id="email"  name="email" placeholder="Enter your email">
                 </div>
 
                 <div class="form-group">
                     <label for="phone">phone: </label>
-                    <input type="Phone" id="Phone" placeholder="Enter your Phone Number">
+                    <input type="Phone" id="Phone"  name="phone" placeholder="Enter your Phone Number">
                 </div>
 
                 <div class="form-group">
-                    <label for="message">message:</label>
+                    <label for="message" name="message" >message:</label>
                     <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button class="submit">Submit</button>
                 </div>
             </form>
 
